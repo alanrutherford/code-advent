@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc",
     "start": "node ./bin/app.js",
-    "dev": "sh -c 'ts-node ./${0}/index.ts'"
+    "dev": "sh -c 'ts-node ./src/${0}/index.ts'"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
