@@ -4,9 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
+    "2015": "sh -c 'ts-node ./src/2015/${0}/index.ts'",
+    "2022": "sh -c 'ts-node ./src/2022/${0}/index.ts'",
     "build": "tsc",
-    "start": "node ./bin/app.js",
-    "dev": "sh -c 'ts-node ./src/${0}/index.ts'"
+    "start": "node ./bin/app.js"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
