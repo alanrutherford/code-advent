@@ -7,7 +7,7 @@
     "2015": "sh -c 'ts-node ./src/2015/${0}/index.ts'",
     "2022": "sh -c 'ts-node ./src/2022/${0}/index.ts'",
     "build": "tsc",
-    "start": "node ./bin/app.js"
+    "start": "sh -c 'ts-node ./src/${0}/${1}/index.ts'"
   },
   "devDependencies": {
     "@types/node": "^18.11.10",
