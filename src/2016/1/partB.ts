@@ -125,7 +125,6 @@ export default function partB(): void {
         for (let i = 0; i < movement.translation; i++) {
           position.x--;
           const key = `x:${position.x},y:${position.y}`;
-          // console.log(key);
           if (previousPositions.has(key)) {
             console.log(
               `Part B: The first location visited twice is ${
@@ -140,7 +139,6 @@ export default function partB(): void {
         break;
     }
   }
-  // console.log(position);
   console.log(
     `Part B: The first location visited twice is ${
       position.x + position.y

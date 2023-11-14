@@ -30,6 +30,7 @@ interface Value {
 }
 
 export default function partA(): void {
+  console.log("NOT COMPLETED");
   const instructions = syncReadFile("./input.txt")
     .split("\n")
     .map((instruction) => {

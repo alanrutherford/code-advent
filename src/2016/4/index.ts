@@ -6,9 +6,6 @@ function syncReadFile(filename: string) {
 }
 const isDecoy = (roomName: any) => {
   const lettersCount: any = {};
-  //   input.forEach((x) => {
-  //     multipleContainers[x] = (multipleContainers[x] || 0) + 1;
-  //   });
   const encryptedName: string[] = roomName.encryptedName.split("");
   encryptedName.forEach((x) => {
     lettersCount[x] = (lettersCount[x] || 0) + 1;

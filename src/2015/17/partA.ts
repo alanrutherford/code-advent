@@ -28,6 +28,7 @@ const getPerms = (inputArr: number[]) => {
   return Array.from(subSet);
 };
 export default function partA(): void {
+  console.log("NOT COMPLETED");
   const input = syncReadFile("./input.txt")
     .split("\n")
     .map((value) => parseInt(value));

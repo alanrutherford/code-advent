@@ -6,6 +6,7 @@ function syncReadFile(filename: string) {
 }
 
 export default function partB(): void {
+  console.log("NOT COMPLETED");
   const strings = syncReadFile("./input.txt").split("\n");
 
   console.log(`Part B: There are ${strings.length} nice strings`);

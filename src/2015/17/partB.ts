@@ -6,6 +6,7 @@ function syncReadFile(filename: string) {
 }
 
 export default function partB(): void {
+  console.log("NOT COMPLETED");
   const input = syncReadFile("./input.txt");
 
   console.log(`Part B:  `);
